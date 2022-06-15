@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Holy Grail</title>
+    <!-- add styles -->
+    <link rel="stylesheet" href=" styles.css">
+
+    <!-- superagent for  http calls -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/superagent/3.8.3/superagent.min.js"></script>    
+    
+    <!-- don't use in production -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+<body>
+    <!-- home for react components -->
+    <span id="root"></span>
+    
+    <!-- load react -->
+    <script src="https://unpkg.com/react/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom/umd/react-dom.development.js" crossorigin></script>
+
+    <!-- load react components -->
+    <script src="header.js" defer type="text/babel"></script>
+    <script src="left.js" defer type="text/babel"></script>
+    <script src="article.js" defer type="text/babel"></script>
+    <script src="right.js" defer type="text/babel"></script>
+    <script src="footer.js" defer type="text/babel"></script>
+    <script src="index.js" defer type="text/babel"></script>
+
+</body>
+</html>
